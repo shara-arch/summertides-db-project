@@ -145,3 +145,5 @@ INSERT INTO stage_sponsors (stage_id, sponsor_id, sponsorship_amount) VALUES
 (4, 6, 340000),
 (5, 7, 580000),
 (6, 8, 670000);
+
+SELECT 'Sample data inserted successfully.' AS status;
