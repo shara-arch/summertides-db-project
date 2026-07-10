@@ -125,3 +125,12 @@ INSERT INTO sales (ticket_id, vendor_id, sale_date, quantity, amount) VALUES
 (18, 6, '2026-07-04', 1, 8500),
 (19, 4, '2026-07-04', 1, 2500),
 (20, 2, '2026-07-04', 1, 6000);
+
+-- Add event sponsors
+INSERT INTO sponsors (sponsor_name, industry, sponsorship_amount) VALUES
+('OLMECA', 'Spirits', 3500000),
+('Faulu', 'Finance', 2800000),
+('Safaricom', 'Telecom', 1000000),
+('Jambo Jet', 'Automotive', 1100000),
+('Chandarana', 'Utilities', 1000000),
+('Kiss 100', 'Media', 1000000);
