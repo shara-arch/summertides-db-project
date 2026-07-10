@@ -25,3 +25,22 @@ INSERT INTO attendees (full_name, email, phone, age, city, registration_date) VA
 ('Najma Bashir', 'najma.bashir@gmail.com', '+254731874503', 27, 'Nairobi', '2026-04-11'),
 ('Kelly Opiyo', 'kelly.opiyo@yahoo.com', '+254704075642', 27, 'Nairobi', '2026-05-19');
 
+-- Adding artists to db
+INSERT INTO artists (artist_name, genre, country, is_local) VALUES
+('Burna Boy', 'Afro Beats', 'Nigeria', 0),
+('Asake', 'Afro Beats', 'Nigeria', 0),
+('Shenseea', 'Dancehall', 'Jamaica', 0),
+('Kamauu', 'RnB', 'Kenya', 1),
+('Vybz Kartel', 'Dancehall', 'Jamaica', 0),
+('Meja', 'Gengetone', 'Kenya', 1),
+('kaligraph Jones', 'Trap', 'Kenya', 1),
+('Toxic Lyrikali', 'Urbantone', 'Kenya', 1),
+('Popcaan', 'Dancehall', 'Jamaica', 1),
+('Diamond Platnumz', 'Bongo', 'Tanzania', 0);
+
+
+
+
+
+
+
