@@ -134,3 +134,14 @@ INSERT INTO sponsors (sponsor_name, industry, sponsorship_amount) VALUES
 ('Jambo Jet', 'Automotive', 1100000),
 ('Chandarana', 'Utilities', 1000000),
 ('Kiss 100', 'Media', 1000000);
+
+-- Add stage sponsors
+INSERT INTO stage_sponsors (stage_id, sponsor_id, sponsorship_amount) VALUES
+(1, 1, 820000),
+(1, 2, 450000),
+(2, 3, 680000),
+(2, 4, 540000),
+(3, 5, 600000),
+(4, 6, 340000),
+(5, 7, 580000),
+(6, 8, 670000);
