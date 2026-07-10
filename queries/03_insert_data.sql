@@ -38,6 +38,15 @@ INSERT INTO artists (artist_name, genre, country, is_local) VALUES
 ('Popcaan', 'Dancehall', 'Jamaica', 1),
 ('Diamond Platnumz', 'Bongo', 'Tanzania', 0);
 
+-- Adding stages to db
+INSERT INTO stages (stage_name, location, capacity) VALUES
+('Sunset Arena', 'Malindii town', 3000),
+('Tide Pavilion', 'Watamu', 1500),
+('Dune Deck', 'Shella', 4800),
+('Paradise Lounge', 'Gedi', 3200),
+('Pirates Beach', 'Watamu', 1200),
+
+
 
 
 
