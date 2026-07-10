@@ -67,7 +67,7 @@ INSERT INTO performances (artist_id, stage_id, performance_date, start_time, end
 (8, 5, '2026-07-04', '19:30', '20:30', 'Day 3'),
 (8, 6, '2026-07-04', '20:30', '21:30', 'Day 3');
 
--- Addi ticket purchases to db
+-- Add ticket purchases to db
 INSERT INTO tickets (ticket_code, attendee_id, ticket_type, price, purchase_date) VALUES
 ('ST-001', 1, 'Regular', 2500, '2026-06-13'),
 ('ST-002', 2, 'VIP', 6000, '2026-06-29'),
@@ -90,6 +90,17 @@ INSERT INTO tickets (ticket_code, attendee_id, ticket_type, price, purchase_date
 ('ST-019', 19, 'Regular', 2500, '2026-05-17'),
 ('ST-020', 20, 'VIP', 6000, '2026-05-11');
 
-
+-- Add vendors
+INSERT INTO vendors (vendor_name, category, rating, contact_person) VALUES
+('Floydeez', 'Snacks', 4.8, 'Mina Awuor'),
+('Tide T-shirts', 'Merchandise', 4.4, 'Peter Karanja'),
+('Dairy Land', 'Beverage', 4.7, 'Lucy Naliaka'),
+('OLMECA', 'Beverage', 4.2, 'Noah Wanjiku'),
+('Kitu Different', 'Food', 4.9, 'Salim Ouma'),
+('Bahari Prints', 'Merchandise', 4.1, 'Faith Mugo'),
+('Jaba Juice', 'Beverage', 4.5, 'James Ndungu'),
+('Beach Books', 'Merchandise', 4.0, 'Rina Onkundi'),
+('Crab House', 'Food', 4.6, 'Victor Otieno'),
+('Wave Gear', 'Merchandise', 4.3, 'Asha Muli');
 
 
